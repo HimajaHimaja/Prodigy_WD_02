@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hybrid Clock</h1>
+        <div class="clock">
+            <div class="num" style="--n:1" ><b>1</b></div>
+            <div class="num" style="--n:2" ><b>2</b></div>
+            <div class="num" style="--n:3" ><b>3</b></div>
+            <div class="num" style="--n:4" ><b>4</b></div>
+            <div class="num" style="--n:5" ><b>5</b></div>
+            <div class="num" style="--n:6" ><b>6</b></div>
+            <div class="num" style="--n:7" ><b>7</b></div>
+            <div class="num" style="--n:8" ><b>8</b></div>
+            <div class="num" style="--n:9" ><b>9</b></div>
+            <div class="num" style="--n:10" ><b>10</b></div>
+            <div class="num" style="--n:11" ><b>11</b></div>
+            <div class="num" style="--n:12" ><b>12</b></div>
+            <div class="hr-hand" id="hr-hand"></div>
+            <div class="min-hand" id="min-hand"></div>
+            <div class="sec-hand" id="sec-hand"></div>
+            <div class="center-dot"></div>
+        </div>
+        <div class="timer">
+           
+            <div class="time">
+
+                <span class="hours">00</span>
+                <span class="span:"> : </span>
+                <span class="minutes">00</span>
+                <span class="span:"> : </span>
+                <span class="seconds">00</span>
+
+             </div>
+        </div>
+        
+        
+        <button class="vertical-button" ><a href="#section2" >STOP WATCH</a></button>
+        
+        
+    </div>
+    <div class="container2" >
+        <h1 class="stphead">StopWatch</h1>
+        <div class="sw-box">
+        <div class="timer sw">
+           
+            <div class="time sw-time">
+
+                <span class="hours sw-hrs" id="sw-hrs">00</span>
+                <span class="span:"> : </span>
+                <span class="minutes sw-min" id="sw-min">00</span>
+                <span class="span:"> : </span>
+                <span class="seconds sw-sec" id="sw-sec">00</span>
+
+             </div>
+             
+        </div>
+        <div class="swbut" id="section2">
+            <button class="start but" onclick="obj.start()">Start</button>
+            <button class="stop but" onclick="obj.stop()">Stop</button>
+            <button class="restart but" onclick="obj.reset()">Reset</button>
+            <button class="lap but" onclick="obj.lap()">Lap</button>
+        </div>
+        <div class="laps" id="laps"></div>
+        </div>
+    </div>
+    
+    
+</body>
+<script  src="index.js">
+    
+</script>
+</html>
