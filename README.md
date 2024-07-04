@@ -3,4 +3,4 @@ Building a stopwatch web application, I used HTML, CSS, and JavaScript. HTML is 
 
 ## Software tool used: Visual Studio
 ### Languages used: HTML, CSS, JS
-### Live Preview: 
+### Live Preview: https://himajahimaja.github.io/Prodigy_WD_02/
